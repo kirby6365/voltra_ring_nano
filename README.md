@@ -1,6 +1,6 @@
 # Voltra Ring Nano
 
-A smaller remake of [Voltra Ring](../voltra_ring): a Bluetooth remote for the **Beyond
+A smaller remake of [Voltra Ring](https://github.com/kirby6365/voltra_ring): a Bluetooth remote for the **Beyond
 Power Voltra I** that shows the weight and nothing else. It keeps the scroll wheel, the
 load button, the magnetic mounts and USB-C charging, on a
 [Seeed XIAO ESP32-C6](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/) with a
@@ -25,10 +25,6 @@ case are new.
 > Beyond Power. It drives the Voltra through a reverse-engineered protocol, and a
 > firmware update could change that protocol. Use it at your own risk, and keep clear of
 > the cable when loading.
-
-> **Not yet built.** The firmware compiles and the case renders, but neither has met
-> real parts. Before printing, check the dimensions under
-> [Check against your parts](#check-against-your-parts).
 
 ![Screens](docs/oled_screens.png)
 
@@ -171,7 +167,8 @@ drawn on it, seen from the component side.
 
 ### Check against your parts
 
-These are drawn from listings, not measured. Each is one variable at the top of the SCAD.
+The case was built and fitted with the parts listed above. If yours differ, these are the
+measurements to check. Each is one variable at the top of the SCAD.
 Render with `openscad -o x.echo --export-format echo case/voltra_ring_nano_case.scad` to
 see the resulting size, and an assert names any clash.
 
